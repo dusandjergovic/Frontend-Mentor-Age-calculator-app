@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Age calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div id="container">
+    <form action="">
+      <label for="Day">
+        <span>Day</span>
+        <input type="number" id="Day" placeholder="DD" required>
+        <span class="reqMess day"></span>
+      </label>
+      <label for="Month">
+        <span>Month</span>
+        <input type="number" id="Month" placeholder="MM" required>
+        <span class="reqMess month"></span>
+      </label>
+      <label for="Year">
+        <span>Year</span>
+        <input type="number" id="Year" placeholder="YYYY" required>
+        <span class="reqMess year"></span>
+      </label>
+    </form>
+    
+    <hr>
+
+    <button id="iconArrow">
+      <svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg>
+    </button>
+
+    <div id="UserAge">
+      <div class="numbers">
+        <span class="YearsOld">--</span>
+        <span>years</span>
+      </div>
+      <div class="numbers">
+        <span class="MonthsOld">--</span>
+        <span>months</span>
+      </div>
+      <div class="numbers">
+        <span class="DaysOld">--</span>
+        <span>days</span>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+
+  </div>
+  
+  
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>

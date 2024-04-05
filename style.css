@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(0, 0%, 94%);
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 1rem;
+    border-bottom-right-radius: 4rem;
+}
+
+form {
+    display: flex;
+    gap: 1rem;
+}
+
+form label {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    color: hsl(0, 1%, 44%);
+}
+form input {
+    width: 100px;
+    height: 50px;
+    font-size: 30px;
+    padding: .5rem;
+    border-radius: .5rem;
+    border: 1px solid hsl(0, 0%, 86%);
+    color: hsl(0, 1%, 44%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.reqMess {
+    color: red;
+    font-size: 10px;
+    font-style: italic;
+    display: none;
+}
+
+#iconArrow {
+    background-color: hsl(259, 100%, 65%);
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+    margin-top: -4rem;
+    margin-left: 40%;
+}
+
+#iconArrow:hover {
+    background-color: hsl(0, 5%, 15%);
+}
+
+#iconArrow:active {
+    background-color: hsl(0, 0%, 8%);
+}
+
+hr {
+    margin-top: 2rem;
+}
+
+.numbers span{
+    font-size: 32px;
+}
